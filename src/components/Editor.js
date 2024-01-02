@@ -4,6 +4,8 @@ import { CKEditor } from '@ckeditor/ckeditor5-react';
 
 const CustomEditor = () => {
 
+    console.log(process.env.REACT_APP_EDITOR_UPLOAD_URL, "configggggggggggggggggggggg");
+
     const editorConfiguration = {
         collaboration: {
             channelId: process.env.REACT_APP_EDITOR_CHANNEL_ID,
